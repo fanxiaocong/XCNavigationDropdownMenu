@@ -18,7 +18,6 @@
 		1E088D3F1E6EBFE200FE43FF /* XCNavigationDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E088D3E1E6EBFE200FE43FF /* XCNavigationDropdownMenu.m */; };
 		1E088D421E6EC22200FE43FF /* UIColor+XCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E088D411E6EC22200FE43FF /* UIColor+XCExtension.m */; };
 		1E088D481E6EC31900FE43FF /* UIView+XCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E088D471E6EC31900FE43FF /* UIView+XCExtension.m */; };
-		1E088D4C1E6F8EC200FE43FF /* icon_down_gn.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E088D4B1E6F8EC200FE43FF /* icon_down_gn.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +60,6 @@
 		1E088D411E6EC22200FE43FF /* UIColor+XCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XCExtension.m"; sourceTree = "<group>"; };
 		1E088D461E6EC31900FE43FF /* UIView+XCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XCExtension.h"; sourceTree = "<group>"; };
 		1E088D471E6EC31900FE43FF /* UIView+XCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XCExtension.m"; sourceTree = "<group>"; };
-		1E088D4B1E6F8EC200FE43FF /* icon_down_gn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_down_gn.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,7 +153,6 @@
 		1E088D3C1E6EBFE200FE43FF /* XCNavigationDropdownMenu */ = {
 			isa = PBXGroup;
 			children = (
-				1E088D4B1E6F8EC200FE43FF /* icon_down_gn.png */,
 				1E088D401E6EC22200FE43FF /* UIColor+XCExtension.h */,
 				1E088D411E6EC22200FE43FF /* UIColor+XCExtension.m */,
 				1E088D461E6EC31900FE43FF /* UIView+XCExtension.h */,
@@ -272,7 +269,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E088D4C1E6F8EC200FE43FF /* icon_down_gn.png in Resources */,
 				1E088D191E6EBF6C00FE43FF /* LaunchScreen.storyboard in Resources */,
 				1E088D161E6EBF6C00FE43FF /* Assets.xcassets in Resources */,
 				1E088D141E6EBF6C00FE43FF /* Main.storyboard in Resources */,

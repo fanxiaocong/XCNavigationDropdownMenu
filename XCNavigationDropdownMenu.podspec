@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "XCNavigationDropdownMenu"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "NavigationDropdownMenu"
 
   s.description  = "NavigationDropdownMenu自定义下拉导航列表"
