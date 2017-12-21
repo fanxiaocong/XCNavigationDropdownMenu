@@ -67,7 +67,7 @@
     
     [super layoutSubviews];
     
-    CGFloat textW = [self.titleLabel.text sizeWithAttributes:@{NSFontAttributeName : [UIFont systemFontOfSize:15]}].width;   // 文字宽度
+    CGFloat textW = [self.titleLabel.text sizeWithAttributes:@{NSFontAttributeName : self.titleLabel.font}].width;   // 文字宽度
     CGFloat imgW = IMG_WIDTH;           // 图片宽度
     CGFloat marginX = MARGIN;           // 图片与文字的间隙
     
@@ -114,6 +114,11 @@
 @end
 
 @implementation XCNavigationDropdownMenu
+
+- (void)dealloc
+{
+    NSLog(@"%s", __func__);
+}
 
 #pragma mark - ⏳ 👀 LifeCycle Method 👀
 
@@ -574,39 +579,6 @@
 }
 
 @end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

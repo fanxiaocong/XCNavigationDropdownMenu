@@ -18,6 +18,7 @@
 		1E088D3F1E6EBFE200FE43FF /* XCNavigationDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E088D3E1E6EBFE200FE43FF /* XCNavigationDropdownMenu.m */; };
 		1E088D421E6EC22200FE43FF /* UIColor+XCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E088D411E6EC22200FE43FF /* UIColor+XCExtension.m */; };
 		1E088D481E6EC31900FE43FF /* UIView+XCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E088D471E6EC31900FE43FF /* UIView+XCExtension.m */; };
+		1E0BED6F1F724EB200D3B5FB /* TTTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E0BED6E1F724EB200D3B5FB /* TTTViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		1E088D411E6EC22200FE43FF /* UIColor+XCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+XCExtension.m"; sourceTree = "<group>"; };
 		1E088D461E6EC31900FE43FF /* UIView+XCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XCExtension.h"; sourceTree = "<group>"; };
 		1E088D471E6EC31900FE43FF /* UIView+XCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XCExtension.m"; sourceTree = "<group>"; };
+		1E0BED6D1F724EB200D3B5FB /* TTTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTViewController.h; sourceTree = "<group>"; };
+		1E0BED6E1F724EB200D3B5FB /* TTTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				1E088D0D1E6EBF6C00FE43FF /* AppDelegate.m */,
 				1E088D0F1E6EBF6C00FE43FF /* ViewController.h */,
 				1E088D101E6EBF6C00FE43FF /* ViewController.m */,
+				1E0BED6D1F724EB200D3B5FB /* TTTViewController.h */,
+				1E0BED6E1F724EB200D3B5FB /* TTTViewController.m */,
 				1E088D121E6EBF6C00FE43FF /* Main.storyboard */,
 				1E088D151E6EBF6C00FE43FF /* Assets.xcassets */,
 				1E088D171E6EBF6C00FE43FF /* LaunchScreen.storyboard */,
@@ -301,6 +306,7 @@
 				1E088D421E6EC22200FE43FF /* UIColor+XCExtension.m in Sources */,
 				1E088D0E1E6EBF6C00FE43FF /* AppDelegate.m in Sources */,
 				1E088D0B1E6EBF6C00FE43FF /* main.m in Sources */,
+				1E0BED6F1F724EB200D3B5FB /* TTTViewController.m in Sources */,
 				1E088D481E6EC31900FE43FF /* UIView+XCExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
