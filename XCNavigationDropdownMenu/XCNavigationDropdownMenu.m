@@ -48,8 +48,8 @@
 
 #import "XCNavigationDropdownMenu.h"
 
-#import "UIColor+XCExtension.h"
-#import "UIView+XCExtension.h"
+#import "UIColor+XCNavigationDropdownMenu.h"
+#import "UIView+XCNavigationDropdownMenu.h"
 
 
 #define IMG_WIDTH 6

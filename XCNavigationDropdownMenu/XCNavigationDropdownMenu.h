@@ -2,7 +2,7 @@
 /**
  *     类名：       NavigationDropdownMenu.h
  *
- *     工程名称：   轮播图下拉放大
+ *     工程名称：   XCNavigationDropdownMenu
  *
  *     创建人：     樊小聪
  *

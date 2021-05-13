@@ -36,6 +36,7 @@
     
     XCNavigationDropdownMenu *menu = [[XCNavigationDropdownMenu alloc] initWithNavigationController:self.navigationController];
     
+    [menu setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [menu setTitle:@"全部数据" forState:UIControlStateNormal];
     [menu setImage:[UIImage imageNamed:@"icon_down_gn"] forState:UIControlStateNormal];
     

@@ -6,10 +6,10 @@
 //  Copyright © 2017年 樊小聪. All rights reserved.
 //
 
-#import "UIColor+XCExtension.h"
+#import "UIColor+XCNavigationDropdownMenu.h"
 #import <objc/runtime.h>
 
-@implementation UIColor (XCExtension)
+@implementation UIColor (XCNavigationDropdownMenu)
 
 + (UIColor *)colorWithHexString:(NSString *)color alpha:(CGFloat)alpha
 {

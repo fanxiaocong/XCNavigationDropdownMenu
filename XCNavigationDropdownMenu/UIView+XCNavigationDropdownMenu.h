@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIView (XCExtension)
+@interface UIView (XCNavigationDropdownMenu)
 
 /* 🐖 ***************************** 🐖 华丽的分隔线 🐖 *****************************  🐖 */
 
