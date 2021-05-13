@@ -172,6 +172,7 @@
         UITableView *tableView = [[UITableView alloc] initWithFrame:self.menuBackgroundView.bounds style:UITableViewStylePlain];
         _menuTableView = tableView;
         _menuTableView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleBottomMargin;
+        _menuTableView.showsVerticalScrollIndicator = NO;
         _menuTableView.dataSource = self;
         _menuTableView.delegate   = self;
         _menuTableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
